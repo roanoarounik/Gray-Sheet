@@ -1,0 +1,49 @@
+body {
+    background: green;
+    font-size: 45px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    grid-gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    background: maroon;
+    padding: 25px;
+    color: white;
+    min-height: 145px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    grid-gap: 40px;
+}
+
+.twoSides {
+    gap: 47px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 30% 1fr;
+}
+
+footer {
+    display: flex;
+    grid-gap: 25px;
+}
+
+article {
+    height: 100%;
+    min-width: 700px;
+    padding: 0 !important;
+    min-height: 645px !important;
+}
+
+nav {
+    gap: 47px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
